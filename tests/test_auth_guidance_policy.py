@@ -75,6 +75,7 @@ def test_twitter_operational_docs_explain_the_environment_boundary():
     """Saved cookies help doctor only; direct twitter commands need env vars."""
     operational_docs = (
         ROOT / "README.md",
+        ROOT / "docs" / "README_zh.md",
         ROOT / "docs" / "README_en.md",
         ROOT / "docs" / "README_ja.md",
         ROOT / "docs" / "README_ko.md",
@@ -126,6 +127,7 @@ def test_localized_readmes_keep_current_bilibili_and_xhs_routes():
     """Translations must not revive retired yt-dlp/Bilibili or XHS defaults."""
     readmes = (
         ROOT / "README.md",
+        ROOT / "docs" / "README_zh.md",
         ROOT / "docs" / "README_en.md",
         ROOT / "docs" / "README_ja.md",
         ROOT / "docs" / "README_ko.md",

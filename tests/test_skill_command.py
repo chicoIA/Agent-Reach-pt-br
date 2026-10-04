@@ -118,7 +118,7 @@ class TestSkillCommand(unittest.TestCase):
         career = (
             root / "agent_reach" / "skill" / "references" / "career.md"
         ).read_text(encoding="utf-8")
-        readme = (root / "README.md").read_text(encoding="utf-8")
+        readme = (root / "docs" / "README_zh.md").read_text(encoding="utf-8")
 
         for content in (install_doc, skill, readme):
             self.assertIn("帮我配 Boss直聘", content)
