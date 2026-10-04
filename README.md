@@ -1,3 +1,5 @@
+> 🇧🇷 **Edição em português:** manual e skill pronta para importar (zip) em [`pt-br/`](pt-br/README.md) — veja o [MANUAL](pt-br/MANUAL.md).
+
 <h1 align="center">👁️ Agent Reach</h1>
 
 <p align="center">
